@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=windows-1252">
+    <meta name="darkreader-lock">
+    <title>moonlit dreams</title>
+    <!-- image preload hell??! -->
+    <!--silly html testing grounds of hell template-->
+    <link rel="preload" as="image" href='https://placecats.com/600/2000'>
+    <link rel="preload" as="image" href='lp1.png'>
+    <link rel="preload" as="image" href='trasptest.png'>
+
+    <style type="text/css">
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght,BNCE,INFM,SPAC@0,500,-34,26,7.9;1,500,-34,26,7.9&family=Ubuntu+Mono:ital@0;1&display=swap');
+*{box-sizing: border-box;
+}
+#grad {
+    background-image: linear-gradient(black, white);
+  }
+#altbg{
+  background-image: linear-gradient(white,white);
+}
+html{
+  background-color: black;
+}
+.container {
+    margin: auto;
+    max-width: 1200px;
+    
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .block {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .left {
+    position: relative;
+    flex: 1;
+    
+
+    align-items: end;
+    text-align: right;
+  }
+  
+  .right {
+    position: relative;
+    flex: 1;
+    
+
+  }
+  
+  .image {
+    width: 600px;
+  }
+  
+  .dialogue {
+    display: block;
+    height: 100%;
+  margin: 0;
+  font-size: 20px;
+  font-family: "Shantell Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "BNCE" -34,
+    "INFM" 26,
+    "SPAC" 7.9;
+    width: 100%;
+    
+    position: absolute;
+  }
+  
+  .left .dialogue {
+    padding-right: 8px;
+  }
+  
+  .right .dialogue {
+    padding-left: 8px;
+  }
+
+  /* colored dialouge*/
+  .dialogue.brush {
+    color: #FF3082;
+  }
+  
+  .dialogue.mirror {
+    color: #FF153C;
+  }
+  
+  .dialogue.ribbon {
+    color: #5A88FF;
+  }
+  .dialogue.em {
+    color: #FF5A19;
+  }
+  .dialogue.clock {
+    color:  #b01c37;
+  }
+  .redact.brush {
+    color: #FF3082;
+    background-color: #FF3082;
+  }
+  /* colored redactions*/
+  .redact.mirror {
+    color: #FF153C;
+    background-color: #FF153C;
+  }
+  
+  .redact.ribbon {
+    color: #5A88FF;
+    background-color: #5A88FF;
+  }
+  .redact.em {
+    color: #FF5A19;
+    background-color: #FF5A19;
+  }
+  .redact.clock {
+    color:  #b01c37;
+    background-color: #b01c37;
+  }
+
+
+  .codetext {
+    font-family: "Ubuntu Mono", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: white
+  }
+ 
+</style> </head>
+<!--DA MAIN SHIIIT-->
+<div class="container">
+  <div class="block">
+    <div class="left">
+      <span class="dialogue ribbon" style="top: 500px;">Oh, that's not good.</span>
+      <span class="dialogue em" style="top: 800px;">testing name redacts <span class="redact brush">Brush</span> and <span class="redact clock">dante</span>... do your walpurgisnact events....</span>
+    </div>
+    <!--center-->
+    <div class="image">
+      <img src="https://placecats.com/600/2000">
+      <br><img src="lp1.png">
+      <br> 
+      <br><span class="codetext">meow meow meow <i>mroooow</i> <a href="url">next =></a></span>
+    </div>
+    <div class="right">
+      <span class="dialogue brush" style="top: 200px;">Oh, <span class="redact brush">fuck</span> me.</span>
+      <span class="dialogue mirror" style="top: 700px;">Brace yourself!<br><br>that was pretty cringe</span>
+      <span class="dialogue clock" style="top: 1000px;">fucked up if true</span>
+    </div>
+
+  </div>
+
+</div>
+<!-- bg gradient from black to white -->
+<div id="grad" style="height: 1000px;"></div>
+<div id="altbg" style="height: 4500px;">
+  <div class="container">
+  <div class="block">
+    <div class="left">
+      <span class="dialogue ribbon" style="top: 500px;">Oh, that's not good.</span>
+      <span class="dialogue em" style="top: 800px;">testing name redacts <span class="redact brush">Brush</span> and <span class="redact clock">dante</span>... do your walpurgisnact events....</span>
+    </div>
+    <div class="image">
+      <img src="trasptest.png">
+      </div>
+      <div class="right">
+        <span class="dialogue brush" style="top: 200px;">Oh, <span class="redact brush">fuck</span> me.</span>
+        <span class="dialogue mirror" style="top: 700px;">now testing contrast heck</span>
+        <span class="dialogue clock" style="top: 1000px;">shelled up if true</span>
+      </div>
+  </div>
+</div>
+</body>
+</html>
