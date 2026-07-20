@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
+html{
+    font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    scroll-behavior: smooth;
+    font-size: large;
+}
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+header {
+    line-height: 50%;
+    background-color: #3A7EFD;
+    color: black;
+    height: 175px;
+    width:98.6vw;
+    padding-top: .5%;
+    padding-left: .5%;
+    h1{
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-size: 50px;
+    }
+    h2{
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: inherit;
+    }
+    h3{
+        font-weight: 400;
+        text-align: right;
+        margin-right: .5%;
+    }
+    sub{
+    font-size: small;
+    text-align: right;
+    line-height: ;
+    }
+    
+}
+nav{
+    position: sticky;
+    top: 0px;
+}
+nav ul{
+    background-color: #3a7efdc4;
+    display: flex;
+    gap: 2.5%;
+    padding: 25px;
+    margin-top: 0;
+    list-style-type: none;
+}
+
+nav li a {
+  font-family: "Bebas Neue", sans-serif;
+  color: #FFFEA0;
+  text-align: center;
+  padding: 14px 25px;
+  text-decoration: none;
+  font-size: 24px;
+  border-radius: 5px;
+}
+
+nav li a:hover {
+  background-color: #FFFEA0;
+  color: black;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    min-height: 90vh;
+    align-items: center;
+}
+section #container{
+    
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    background-color: #FFFEA0;
+    padding: 2.5% 15%;
+    top: 55%;
+    border-radius: 0px 5px 5px 0px;
+}
+article{
+    color: black;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+article h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+footer{
+    background-color: #3A7EFD;
+    padding: 25px;
+    text-align: center;
+}
+
+
+a, a:hover {
+	text-decoration: none;
+}
+
+.socialbtns, .socialbtns ul, .socialbtns li {
+  margin: 0;
+  padding: 5px;
+}
+
+.socialbtns li {
+    list-style: none outside none;
+    display: inline-block;
+}
+
