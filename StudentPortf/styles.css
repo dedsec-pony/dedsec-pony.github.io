@@ -196,6 +196,57 @@ article h1{
             backdrop-filter: blur(10px);
             }
         }
+form {
+   max-width: 700px;
+   text-align: center;
+
+  
+  input, textarea {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+     padding: 2em;
+    border-radius:10px;
+     display: block;
+     width: 100%;
+     margin-top: 1em;
+     resize: none;
+  }
+  
+  #input-submit {
+     color: white; 
+     background: #3A7EFD;
+     cursor: pointer;
+    
+  }
+  #input-reset {
+     color: white; 
+     background: #fd3a4a;
+     cursor: pointer;
+    
+  }
+  
+  textarea {
+      height: 126px;
+  }
+}
+
+
+.half {
+  float: left;
+  width: 90%;
+  margin-bottom: 1em;
+}
+
+.right { width: 90%; }
+
+.left {
+     margin-right: 2%; 
+}
+
+
+
+
 
 
 footer{
